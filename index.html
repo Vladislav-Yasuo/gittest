@@ -3,25 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Прикольный Сайт</title>
+    <title>Прикольный Адаптивный Сайт</title>
     <style>
         body {
             font-family: 'Comic Sans MS', cursive, sans-serif;
             text-align: center;
             background-color: #F7E7CE;
+            margin: 0;
+            padding: 0;
         }
 
         h1 {
             color: #FF6347;
+            margin-bottom: 10px;
         }
 
         p {
             color: #008080;
+            margin-bottom: 20px;
         }
 
         img {
             max-width: 100%;
             height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
