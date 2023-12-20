@@ -1,41 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Добро пожаловать на прикольный адаптивный сайт с котиками! Здесь вы найдете много смеха и веселья. Простой и удобный дизайн, поддержка мобильных устройств. Посетите нас и наслаждайтесь приятной атмосферой!">
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" href="./image/cat-icon.svg">
     <title>Прикольный Адаптивный Сайт</title>
+
     <style>
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-family: 'Arial', sans-serif;
             text-align: center;
-            background-color: #F7E7CE;
+            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px 0;
         }
 
         h1 {
-            color: #FF6347;
+            font-size: 2.5em;
             margin-bottom: 10px;
         }
 
         p {
-            color: #008080;
+            font-size: 1.2em;
+            color: #555;
             margin-bottom: 20px;
         }
 
         img {
             max-width: 100%;
             height: auto;
-            display: block;
-            margin: 0 auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px 0;
         }
-        
+
         @media (max-width: 600px) {
             h1 {
                 font-size: 24px;
@@ -48,9 +60,16 @@
     </style>
 </head>
 <body>
-    <h1>Добро пожаловать на мой прикольный сайт!</h1>
-    <p>Здесь будет много смеха и веселья!</p>
-    <img src="https://placekitten.com/500/300" alt="Котики">
+    <header>
+        <h1>Добро пожаловать на мой прикольный сайт!</h1>
+    </header>
+
+    <section>
+        <p>Здесь будет много смеха и веселья! Наслаждайтесь красивыми фотографиями котиков:</p>
+        <img src="https://placekitten.com/500/300" alt="Котик 1">
+        <img src="https://placekitten.com/501/300" alt="Котик 2">
+        <img src="https://placekitten.com/502/300" alt="Котик 3">
+    </section>
 
     <footer>
         <p>© 2023 Прикольный Сайт</p>
